@@ -6,7 +6,7 @@ __WHAM_plotter__ is a repository that provides code snippets to sort and visuali
 
 ## **How to use?**
 
-To use this repository, the user should first ensure that they have computed each simulation window in the folder entitled window*{} (e.g. window_1, window_2, ..., window_n). These window*{} folders should be located in the folder named window_folders. The folder structure should look like this:
+To use this repository, the user should first ensure that they have computed each simulation window in the folder entitled `window_{}` (e.g. window_1, window_2, ..., window_n). These `window_{}` folders should be located in the folder named window_folders. The folder structure should look like this:
 Therefore, the folder tree looks like:
 
 ```text
