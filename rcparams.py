@@ -45,11 +45,11 @@ def rcparams():
 
     rcParams['font.size'] = 14
     rcParams['axes.titlepad'] = 10
-    rcParams['axes.titleweight'] = 'bold'
+    rcParams['axes.titleweight'] = 'normal'
     rcParams['axes.titlesize'] = 18
 
     # Axes settings
-    rcParams['axes.labelweight'] = 'bold'
+    rcParams['axes.labelweight'] = 'normal'
     rcParams['xtick.labelsize'] = 12
     rcParams['ytick.labelsize'] = 12
     rcParams['axes.labelsize'] = 16
