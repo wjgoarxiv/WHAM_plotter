@@ -13,10 +13,14 @@ rcparams()
 fig, ax = plt.subplots()
 ax.plot(x, y)
 
+# Set your x-axis limit here
+ax.set_xlim(0, 1.4)
+
 # Add labels and title
 ax.set_xlabel(r'$\xi$')
 ax.set_ylabel('Free energy (kJ/mol)')
 ax.set_title('Umbrella potential')
 
-# Show the plot
-plt.show()
+# Save your plot
+plt.tight_layout()
+plt.savefig('profile.png', dpi=300)

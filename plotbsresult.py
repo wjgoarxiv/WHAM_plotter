@@ -46,4 +46,5 @@ ax.text(0.75, -1.2, r'$\Delta$G = %.2f kJ/mol' % (y[mask].max() - y[mask].min())
 ax.set_title('PMF with bootstrapping', fontsize=12, fontweight='normal')
 
 # Save the plot
+plt.tight_layout()
 plt.savefig('bsResult.png', dpi=300, bbox_inches='tight')

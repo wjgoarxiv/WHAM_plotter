@@ -29,7 +29,9 @@ for d in data:
 ax.set_xlabel(r'$\xi$')
 ax.set_ylabel('Free energy (kJ/mol)')
 
-ax.set_xlim(0, 1)
+# Set your x-axis limits here
+ax.set_xlim(0, 1.4)
 
-# Show the plot
-plt.show()
+# Download the plot
+plt.tight_layout()
+plt.savefig('bsProfs.png', dpi=300)

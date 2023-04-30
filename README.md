@@ -4,6 +4,15 @@
 
 __WHAM_plotter__ is a repository that provides code snippets to sort and visualize the raw data obtained from free energy calculations using GROMACS (i.e. umbrella sampling). This README file explains how to use the provided code snippets and provides a brief overview of the files contained in the repository.
 
+## **PREVIEW**
+The brief WHAM results are same as follow:
+
+| `bsProfs.png` | `bsResult.png` | `profile.png` |
+| :-------: | :-------: | :-------: |
+| <img src = "gallery/bsProfs.png"> | <img src = "gallery/bsResult.png"> | <img src = "gallery/profile.png"> |
+
+I have to note that I didn't simulate enough time to equilibrate each window. The free energy curve would be smoother and better established if you allow for a substantial amount of equilibration time.
+
 ## **How to use?**
 
 To use this repository, the user should first ensure that they have computed each simulation window in the folder entitled `window_{}` (e.g. window_1, window_2, ..., window_n). These `window_{}` folders should be located in the folder named window_folders. The folder structure should look like this:

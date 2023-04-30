@@ -18,5 +18,6 @@ ax.set_xlabel(r'$\xi$')
 ax.set_ylabel('Count')
 ax.set_title('Umbrella histograms')
 
-# Show the plot
-plt.show()
+# Save your plot
+plt.tight_layout()
+plt.savefig('histo.png', dpi=300)
