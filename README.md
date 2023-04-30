@@ -11,12 +11,11 @@ The brief WHAM results are same as follow:
 | :-------: | :-------: | :-------: |
 | <img src = "gallery/bsProfs.png"> | <img src = "gallery/bsResult.png"> | <img src = "gallery/profile.png"> |
 
-I have to note that I didn't simulate enough time to equilibrate each window. The free energy curve would be smoother and better established if you allow for a substantial amount of equilibration time.
+cf. I have to note that I didn't simulate enough time to equilibrate each window. The free energy curve would be smoother and better established if you allow for a substantial amount of equilibration time.
 
 ## **How to use?**
 
-To use this repository, the user should first ensure that they have computed each simulation window in the folder entitled `window_{}` (e.g.`window_1`, `window_2`, ..., `window_n`). These `window_{}` folders should be located in the folder named window_folders. The folder structure should look like this:
-Therefore, the folder tree looks like:
+To use this repository, the user should first ensure that they have computed each simulation window in the folder entitled `window_{}` (e.g.`window_1`, `window_2`, ..., `window_n`). These `window_{}` folders should be located in the folder named window_folders. Therefore, the folder tree looks like:
 
 ```text
 └── window_folders
