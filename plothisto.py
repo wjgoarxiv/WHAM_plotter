@@ -14,7 +14,7 @@ fig, ax = plt.subplots()
 ax.plot(x, y, linewidth=1.5)
 
 # Add labels and title
-ax.set_xlabel('Reaction coordinate (nm)')
+ax.set_xlabel(r'$\xi$')
 ax.set_ylabel('Count')
 ax.set_title('Umbrella histograms')
 
