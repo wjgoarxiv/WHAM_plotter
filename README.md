@@ -2,7 +2,7 @@
 
 ## **What is this?**
 
-__WHAM_plotter__ is a repository that provides code snippets to sort and visualize the raw data obtained from free energy calculations using GROMACS (e.g. umbrella sampling). This README file explains how to use the provided code snippets and provides a brief overview of the files contained in the repository.
+__WHAM_plotter__ is a repository that provides code snippets to sort and visualize the raw data obtained from free energy calculations using GROMACS (i.e. umbrella sampling). This README file explains how to use the provided code snippets and provides a brief overview of the files contained in the repository.
 
 ## **How to use?**
 
