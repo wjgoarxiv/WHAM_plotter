@@ -14,8 +14,8 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # Add labels and title
-ax.set_xlabel('Reaction coordinate (nm)')
-ax.set_ylabel('E (kJ/mol)')
+ax.set_xlabel(r'$\xi$')
+ax.set_ylabel('Free energy (kJ/mol)')
 ax.set_title('Umbrella potential')
 
 # Show the plot
