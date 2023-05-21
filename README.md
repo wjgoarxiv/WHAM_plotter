@@ -36,7 +36,7 @@ You can place all the python3 code snippet files into the same directory where t
 
 ### **(1) Sort your result files into `WHAM` folder**
 
-To initiate the sorting sequences, run the prepareWHAM.py file by typing the following command in the terminal:
+To initiate the sorting sequences, run the `prepareWHAM.py` file by typing the following command in the terminal:
 
 ```shell
 python3 prepareWHAM.py
@@ -62,7 +62,7 @@ WHAM sequences will be automatically initiated.
 
 ### **(3) Plot your graphs**
 
-Finally, run the other Python3 files (`rcparams.py`, `plotprofile.py`, `plothisto.py`, `plotbsprofs.py`, `plotbsresult.py`) to plot the result graphs. Originally, `xmgrace`, which is the X-GUI-based plotting software, should be used to check these results. However, by running these Python3 files, the user can check the results instantaneously.
+Finally, run the other Python3 files (`plotprofile.py`, `plothisto.py`, `plotbsprofs.py`, `plotbsresult.py`) to plot the result graphs. Make sure to include `rcparams.py` in the same directory where those python3 scripts are located. Originally, `xmgrace`, which is the X-GUI-based plotting software, should be used to check these results. However, by running these Python3 files, the user can check the results instantaneously.
 
 ## **File lists**
 This repository contains the following files:
