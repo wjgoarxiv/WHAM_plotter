@@ -1,22 +1,21 @@
-# To assign the plot settings to all plots
-# Simply typing `rcparams()` in other python scripts will do the job.
-
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
+from matplotlib import font_manager
 
 def rcparams():
     rcParams['figure.figsize'] = 5, 4
     rcParams['font.family'] = 'sans-serif'
 
-    # Check whether Arial or SF Pro Display are installed in the computer
-    try:
-        rcParams['font.sans-serif'] = ['SF Pro Display']
-    except:
-        try:
-            rcParams['font.sans-serif'] = ['Arial']
-        except:
-            print("ERROR Note that Arial and SF Pro are not installed in the computer. The program will use the default font.")
-            pass
+    # Check whether Pretendard or Arial are installed using font_manager
+    available_fonts = set([f.name for f in font_manager.fontManager.ttflist])
+    
+    if 'Pretendard' in available_fonts:
+        rcParams['font.sans-serif'] = ['Pretendard']
+    elif 'Arial' in available_fonts:
+        rcParams['font.sans-serif'] = ['Arial']
+    else:
+        print("ERROR Note that Arial and Pretendard are not installed. The program will use the default font.")
+        pass
 
     # Label should be far away from the axes
     rcParams['axes.labelpad'] = 8
